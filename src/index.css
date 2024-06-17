@@ -14,7 +14,7 @@ body {
   font-style: 400;
   color: #333;
   font-size: 16px;
-  background-color: #26c6da;
+  background-color: #3f89ca;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -275,11 +275,16 @@ textarea {
   font-size: 14px;
   line-height: 20px;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   height: 3rem;
   width: 100%;
   background: white;
   transition: all ease-out 150ms;
+}
+
+.icon-star {
+  padding-right: 12px;
 }
 
 .list-item .title {
