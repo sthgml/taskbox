@@ -10,6 +10,7 @@ export default function Task({ task: { id, title, state }, onArchiveTask, onPinT
           type="checkbox"
           defaultChecked={state === 'TASK_ARCHIVED'}
           disabled={true}
+          style={{ backgroundColor: 'red' }}
           name="checked"
         /> 
         {/*기존 인풋 (display:none), 아래가 UI표시될 커스텀 체크박스*/}
